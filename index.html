@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/mediaq.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <script src="js/main.js" defer></script>
+    <script src="js/matrix.js" defer></script>
+    <title>Philippe Charpentier</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-174109630-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-174109630-1");
+    </script>
+  </head>
+  <body>
+    <main>
+      <!-- Hero Section with matrix background -->
+      <section class="hero-section">
+        <div class="matrix-bg"></div>
+        <div class="matrix-overlay">
+          <div class="hero-text">
+            <h1>Philippe Charpentier</h1>
+            <h3>Fullstack Web Developer</h3>
+            <nav>
+              <ul>
+                <li id="about">/about</li>
+                <li id="contact">/contact</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="modal-about-bg">
+          <div class="modal-about-content">
+            <h2>about-me<span class="cursor">|</span></h2>
+            <p>
+              I specialize in the MERN stack and I can help you with all your
+              web projects. From simple brochure websites to more complex
+              projects which would involve authentication, databases, or payment
+              integrations. I am based in Ireland and we can communicate in
+              English or French.
+            </p>
+            <span class="modal-about-close">X</span>
+          </div>
+        </div>
+
+        <div class="modal-contact-bg">
+          <div class="modal-contact-content">
+            <h2>contact-me<span class="cursor">|</span></h2>
+            <br />
+            <ul>
+              <li><span>contact@philippecharpentier.dev</span></li>
+            </ul>
+            <span class="modal-contact-close">X</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
